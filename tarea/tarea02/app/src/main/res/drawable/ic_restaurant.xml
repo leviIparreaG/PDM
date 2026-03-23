@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="160dp"
+    android:viewportWidth="200"
+    android:viewportHeight="160">
+    <!-- Fondo naranja -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M0,0 L200,0 L200,160 L0,160 Z" />
+    <!-- Plato -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,40 C127,40 150,63 150,90 C150,117 127,140 100,140 C73,140 50,117 50,90 C50,63 73,40 100,40 Z" />
+    <!-- Interior del plato -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M100,55 C118,55 133,70 133,88 C133,106 118,121 100,121 C82,121 67,106 67,88 C67,70 82,55 100,55 Z" />
+    <!-- Tenedor -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M30,30 L30,75 M25,30 L25,50 M35,30 L35,50 M25,50 L35,50 L30,75" />
+    <!-- Cuchillo -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M170,30 L170,75 M170,30 C175,35 175,45 170,50" />
+    <!-- Texto: El Sabor -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M68,155 L132,155" />
+</vector>

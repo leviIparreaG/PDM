@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Imagen / Banner del restaurante -->
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/logo_desc"
+            android:scaleType="centerCrop"
+            android:background="@color/primario"
+            android:src="@drawable/ic_restaurant" />
+
+        <!-- Titulo -->
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/primario"
+            android:gravity="center"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvSubtitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subtitulo"
+            android:textSize="14sp"
+            android:textColor="@color/gris_texto"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Seccion: Datos personales -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/datos_personales"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/primario"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_nombre"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nombre"
+            android:inputType="textPersonName"
+            android:background="@drawable/bg_input"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_correo"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/etCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_correo"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/bg_input"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_telefono"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/etTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_telefono"
+            android:inputType="phone"
+            android:background="@drawable/bg_input"
+            android:padding="12dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Seccion: Tipo de visita -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tipo_visita"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/primario"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/rgTipoVisita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+            <RadioButton
+                android:id="@+id/rbComerLocal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rb_comer_local"
+                android:buttonTint="@color/primario"
+                android:layout_marginBottom="6dp" />
+
+            <RadioButton
+                android:id="@+id/rbParaLlevar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rb_para_llevar"
+                android:buttonTint="@color/primario"
+                android:layout_marginBottom="6dp" />
+
+            <RadioButton
+                android:id="@+id/rbDelivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rb_delivery"
+                android:buttonTint="@color/primario" />
+        </RadioGroup>
+
+        <!-- Seccion: Opciones adicionales -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opciones"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/primario"
+            android:layout_marginBottom="8dp" />
+
+        <CheckBox
+            android:id="@+id/cbClienteFrecuente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cb_cliente_frecuente"
+            android:buttonTint="@color/primario"
+            android:layout_marginBottom="8dp" />
+
+        <CheckBox
+            android:id="@+id/cbTerminos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cb_terminos"
+            android:buttonTint="@color/primario"
+            android:layout_marginBottom="28dp" />
+
+        <!-- Boton principal -->
+        <Button
+            android:id="@+id/btnVerMenu"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/btn_ver_menu"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/primario"
+            android:textColor="@color/blanco" />
+
+    </LinearLayout>
+</ScrollView>

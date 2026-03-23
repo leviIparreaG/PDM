@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Restaurante El Sabor</string>
+    <string name="title_pedidos">Realizar Pedido</string>
+
+    <!-- Pantalla 1: Login -->
+    <string name="subtitulo">Ingresa tus datos para continuar</string>
+    <string name="datos_personales">Datos Personales</string>
+    <string name="label_nombre">Nombre completo *</string>
+    <string name="hint_nombre">Tu nombre completo</string>
+    <string name="label_correo">Correo electronico</string>
+    <string name="hint_correo">correo@ejemplo.com</string>
+    <string name="label_telefono">Telefono</string>
+    <string name="hint_telefono">+56 9 XXXX XXXX</string>
+    <string name="tipo_visita">Tipo de Visita *</string>
+    <string name="rb_comer_local">Comer en el restaurante</string>
+    <string name="rb_para_llevar">Para llevar</string>
+    <string name="rb_delivery">Delivery</string>
+    <string name="opciones">Opciones Adicionales</string>
+    <string name="cb_cliente_frecuente">Soy cliente frecuente (descuento 10%)</string>
+    <string name="cb_terminos">Acepto los terminos y condiciones *</string>
+    <string name="btn_ver_menu">VER MENU</string>
+    <string name="logo_desc">Logo del restaurante</string>
+
+    <!-- Pantalla 2: Pedidos -->
+    <string name="titulo_pedidos">Nuestro Menu</string>
+    <string name="selecciona_productos">Selecciona los productos que deseas:</string>
+    <string name="seccion_productos">Productos</string>
+    <string name="item_hamburguesa">Hamburguesa Clasica</string>
+    <string name="precio_hamburguesa">$5.990</string>
+    <string name="item_pizza">Pizza Margherita</string>
+    <string name="precio_pizza">$7.490</string>
+    <string name="item_refresco">Refresco (500ml)</string>
+    <string name="precio_refresco">$1.290</string>
+    <string name="item_ensalada">Ensalada Fresca</string>
+    <string name="precio_ensalada">$3.490</string>
+    <string name="item_papas">Papas Fritas</string>
+    <string name="precio_papas">$2.290</string>
+    <string name="cant">Cant.</string>
+    <string name="modalidad_entrega">Modalidad de Entrega *</string>
+    <string name="rb_comer_aqui">Comer aqui</string>
+    <string name="rb_llevar">Para llevar</string>
+    <string name="num_personas_label">Numero de personas</string>
+    <string name="comentarios_label">Comentarios adicionales</string>
+    <string name="hint_comentarios">Alergias, preferencias, instrucciones especiales...</string>
+    <string name="btn_confirmar">CONFIRMAR PEDIDO</string>
+    <string name="btn_regresar">REGRESAR</string>
+    <string name="menu_banner_desc">Banner del menu</string>
+
+    <!-- Arrays -->
+    <string-array name="num_personas">
+        <item>1 persona</item>
+        <item>2 personas</item>
+        <item>3 personas</item>
+        <item>4 personas</item>
+        <item>5 personas</item>
+        <item>6 o mas personas</item>
+    </string-array>
+</resources>

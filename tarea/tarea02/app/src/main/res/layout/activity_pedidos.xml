@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Encabezado -->
+        <ImageView
+            android:id="@+id/imgMenuBanner"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="@string/menu_banner_desc"
+            android:scaleType="centerCrop"
+            android:background="@color/secundario"
+            android:src="@drawable/ic_menu_food" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_pedidos"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/primario"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvBienvenida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/selecciona_productos"
+            android:textSize="14sp"
+            android:textColor="@color/gris_texto"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Seccion: Productos -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/seccion_productos"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/primario"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Item: Hamburguesa -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_card"
+            android:padding="10dp">
+
+            <CheckBox
+                android:id="@+id/cbHamburguesa"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/item_hamburguesa"
+                android:buttonTint="@color/primario" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/precio_hamburguesa"
+                android:textColor="@color/primario"
+                android:textStyle="bold"
+                android:layout_marginEnd="8dp" />
+
+            <EditText
+                android:id="@+id/etCantHamburguesa"
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/cant"
+                android:inputType="number"
+                android:text="1"
+                android:gravity="center"
+                android:background="@drawable/bg_input" />
+        </LinearLayout>
+
+        <!-- Item: Pizza -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_card"
+            android:padding="10dp">
+
+            <CheckBox
+                android:id="@+id/cbPizza"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/item_pizza"
+                android:buttonTint="@color/primario" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/precio_pizza"
+                android:textColor="@color/primario"
+                android:textStyle="bold"
+                android:layout_marginEnd="8dp" />
+
+            <EditText
+                android:id="@+id/etCantPizza"
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/cant"
+                android:inputType="number"
+                android:text="1"
+                android:gravity="center"
+                android:background="@drawable/bg_input" />
+        </LinearLayout>
+
+        <!-- Item: Refresco -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_card"
+            android:padding="10dp">
+
+            <CheckBox
+                android:id="@+id/cbRefresco"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/item_refresco"
+                android:buttonTint="@color/primario" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/precio_refresco"
+                android:textColor="@color/primario"
+                android:textStyle="bold"
+                android:layout_marginEnd="8dp" />
+
+            <EditText
+                android:id="@+id/etCantRefresco"
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/cant"
+                android:inputType="number"
+                android:text="1"
+                android:gravity="center"
+                android:background="@drawable/bg_input" />
+        </LinearLayout>
+
+        <!-- Item: Ensalada -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_card"
+            android:padding="10dp">
+
+            <CheckBox
+                android:id="@+id/cbEnsalada"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/item_ensalada"
+                android:buttonTint="@color/primario" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/precio_ensalada"
+                android:textColor="@color/primario"
+                android:textStyle="bold"
+                android:layout_marginEnd="8dp" />
+
+            <EditText
+                android:id="@+id/etCantEnsalada"
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/cant"
+                android:inputType="number"
+                android:text="1"
+                android:gravity="center"
+                android:background="@drawable/bg_input" />
+        </LinearLayout>
+
+        <!-- Item: Papas fritas -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg_card"
+            android:padding="10dp">
+
+            <CheckBox
+                android:id="@+id/cbPapas"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/item_papas"
+                android:buttonTint="@color/primario" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/precio_papas"
+                android:textColor="@color/primario"
+                android:textStyle="bold"
+                android:layout_marginEnd="8dp" />
+
+            <EditText
+                android:id="@+id/etCantPapas"
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/cant"
+                android:inputType="number"
+                android:text="1"
+                android:gravity="center"
+                android:background="@drawable/bg_input" />
+        </LinearLayout>
+
+        <!-- Seccion: Modalidad de entrega -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/modalidad_entrega"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/primario"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/rgModalidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+            <RadioButton
+                android:id="@+id/rbComerAqui"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rb_comer_aqui"
+                android:buttonTint="@color/primario"
+                android:layout_marginBottom="6dp" />
+
+            <RadioButton
+                android:id="@+id/rbLlevar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rb_llevar"
+                android:buttonTint="@color/primario"
+                android:layout_marginBottom="6dp" />
+
+            <RadioButton
+                android:id="@+id/rbDeliveryPedido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rb_delivery"
+                android:buttonTint="@color/primario" />
+        </RadioGroup>
+
+        <!-- Seccion: Numero de personas -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/num_personas_label"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/primario"
+            android:layout_marginBottom="8dp" />
+
+        <Spinner
+            android:id="@+id/spPersonas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg_input"
+            android:padding="8dp" />
+
+        <!-- Seccion: Comentarios -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/comentarios_label"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/primario"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etComentarios"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="@string/hint_comentarios"
+            android:inputType="textMultiLine"
+            android:gravity="top|start"
+            android:background="@drawable/bg_input"
+            android:padding="12dp"
+            android:layout_marginBottom="28dp" />
+
+        <!-- Botones -->
+        <Button
+            android:id="@+id/btnConfirmar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/btn_confirmar"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/primario"
+            android:textColor="@color/blanco"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnRegresar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/btn_regresar"
+            android:textSize="14sp"
+            android:backgroundTint="@color/gris_boton"
+            android:textColor="@color/blanco" />
+
+    </LinearLayout>
+</ScrollView>

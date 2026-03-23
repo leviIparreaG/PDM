@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="120dp"
+    android:viewportWidth="200"
+    android:viewportHeight="120">
+    <!-- Fondo ambar -->
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M0,0 L200,0 L200,120 L0,120 Z" />
+    <!-- Pan superior hamburguesa -->
+    <path
+        android:fillColor="#BF360C"
+        android:pathData="M60,30 C60,15 140,15 140,30 L145,55 L55,55 Z" />
+    <!-- Lechuga -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M50,55 L150,55 L148,65 L52,65 Z" />
+    <!-- Carne -->
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M52,65 L148,65 L146,78 L54,78 Z" />
+    <!-- Pan inferior -->
+    <path
+        android:fillColor="#BF360C"
+        android:pathData="M55,78 L145,78 L145,90 C145,98 55,98 55,90 Z" />
+    <!-- Pizza a la derecha -->
+    <!-- Triangulo pizza -->
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M160,25 L195,90 L125,90 Z" />
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M160,35 L188,85 L132,85 Z" />
+    <path
+        android:fillColor="#FFD600"
+        android:pathData="M155,60 C155,57 160,57 160,60 C160,63 155,63 155,60 Z" />
+    <path
+        android:fillColor="#FFD600"
+        android:pathData="M163,70 C163,67 168,67 168,70 C168,73 163,73 163,70 Z" />
+</vector>
