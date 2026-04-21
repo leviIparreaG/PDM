@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Tarea 3 PDM</string>
+
+    <string name="titulo_inicio">Interfaz de pedido rapido</string>
+    <string name="subtitulo_inicio">Selecciona opciones para simular un pedido.</string>
+    <string name="titulo_pedido">Confirmar pedido</string>
+    <string name="cd_imagen_inicio">Imagen de bienvenida del menu</string>
+    <string name="cd_imagen_pedido">Imagen de resumen del pedido</string>
+
+    <string name="label_nombre">Nombre completo</string>
+    <string name="label_telefono">Telefono de contacto</string>
+    <string name="hint_nombre">Escribe tu nombre</string>
+    <string name="hint_telefono">Ejemplo: 5551234567</string>
+
+    <string name="label_extras">Extras del pedido</string>
+    <string name="extra_bebida">Bebida</string>
+    <string name="extra_postre">Postre</string>
+    <string name="extra_combo">Combo familiar</string>
+    <string name="extra_sin">Sin extras</string>
+
+    <string name="label_entrega">Tipo de entrega</string>
+    <string name="entrega_local">Consumir en local</string>
+    <string name="entrega_domicilio">Entrega a domicilio</string>
+    <string name="entrega_llevar">Para llevar</string>
+
+    <string name="btn_limpiar">Limpiar</string>
+    <string name="btn_continuar">Continuar</string>
+    <string name="btn_volver">Volver</string>
+    <string name="btn_confirmar">Confirmar</string>
+
+    <string name="label_direccion">Direccion de entrega</string>
+    <string name="hint_direccion">Calle, numero y referencia</string>
+    <string name="label_cantidad">Cantidad de productos</string>
+    <string name="hint_cantidad">Ingresa una cantidad valida</string>
+
+    <string name="label_pago">Metodo de pago</string>
+    <string name="pago_efectivo">Efectivo</string>
+    <string name="pago_tarjeta">Tarjeta</string>
+    <string name="pago_transferencia">Transferencia</string>
+
+    <string name="terminos">Acepto terminos de compra y uso de datos</string>
+
+    <string name="error_nombre">Ingresa un nombre para continuar.</string>
+    <string name="error_direccion">Ingresa la direccion del pedido.</string>
+    <string name="error_cantidad">Ingresa una cantidad mayor a cero.</string>
+    <string name="error_pago">Selecciona un metodo de pago.</string>
+    <string name="error_terminos">Debes aceptar los terminos.</string>
+    <string name="pedido_confirmado">Pedido confirmado correctamente.</string>
+
+    <string name="resumen_base">Cliente: %1$s\nTelefono: %2$s\nEntrega: %3$s\nExtras: %4$s</string>
+
+    <!-- Navigation Drawer -->
+    <string name="nav_open">Abrir menu de navegacion</string>
+    <string name="nav_close">Cerrar menu de navegacion</string>
+    <string name="nav_header_subtitle">Pedidos rapidos</string>
+
+    <!-- Action Bar menu -->
+    <string name="menu_buscar">Buscar</string>
+    <string name="menu_favoritos">Favoritos</string>
+    <string name="menu_cancelar_pedido">Cancelar pedido</string>
+    <string name="menu_historial">Historial de pedidos</string>
+    <string name="menu_informacion">Informacion</string>
+
+    <!-- Navigation Drawer items -->
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_nuevo_pedido">Nuevo pedido</string>
+    <string name="nav_mis_pedidos">Mis pedidos</string>
+    <string name="nav_favoritos">Favoritos</string>
+    <string name="nav_perfil">Mi perfil</string>
+    <string name="nav_configuracion">Configuracion</string>
+</resources>

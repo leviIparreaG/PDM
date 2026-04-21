@@ -57,4 +57,24 @@
         <item>5 personas</item>
         <item>6 o mas personas</item>
     </string-array>
+
+    <!-- Navigation Drawer -->
+    <string name="nav_open">Abrir menu de navegacion</string>
+    <string name="nav_close">Cerrar menu de navegacion</string>
+    <string name="nav_header_subtitle">Tu restaurante favorito</string>
+
+    <!-- Action Bar menu -->
+    <string name="menu_buscar">Buscar</string>
+    <string name="menu_favoritos">Favoritos</string>
+    <string name="menu_cancelar_pedido">Cancelar pedido</string>
+    <string name="menu_reenviar_pedido">Reenviar pedido</string>
+    <string name="menu_informacion">Informacion</string>
+
+    <!-- Navigation Drawer items -->
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_ver_menu">Ver menu</string>
+    <string name="nav_mis_pedidos">Mis pedidos</string>
+    <string name="nav_favoritos">Favoritos</string>
+    <string name="nav_perfil">Mi perfil</string>
+    <string name="nav_configuracion">Configuracion</string>
 </resources>
